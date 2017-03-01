@@ -25,7 +25,7 @@ public class Q347 {
 				this.times = t;
 			}
 		}
-		PriorityQueue<node> pq = new PriorityQueue<node>(11,new Comparator<node>() {  //jdk1.8中的默认初始容量为11，与hashmap相同；
+		PriorityQueue<node> pq = new PriorityQueue<node>(11,new Comparator<node>() {  //jdk1.8中的默认初始容量为11
 			@Override
 			public int compare(node o1, node o2) {
 				// TODO Auto-generated method stub
